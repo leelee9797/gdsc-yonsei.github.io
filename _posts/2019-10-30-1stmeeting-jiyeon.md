@@ -1,7 +1,7 @@
 ---
 published : true
 layout : posts
-author : Jiyeon Lee
+author : JeongMin Do
 title : "[지연/1st meetup] Intro to ML 키워드 조사"
 ---
 
