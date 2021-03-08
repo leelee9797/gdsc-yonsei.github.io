@@ -6,6 +6,7 @@ author_profile : true
 
 ## Developer Student Club (DSC) 
 ![image](/assets/images/dsc2.png)
+
 Developer Student Clubs(DSC)은 Google Developers에서 제공하는 프로그램으로, 대학교를 기반으로 하는 개발자 커뮤니티 그룹입니다. 개발자로서 성장하는데 관심이 있는 모든 학부생 또는 대학원생 누구나 참여할 수 있습니다.
 
 DSC는 전 세계의 대학생 개발자들이 구글 관련 기술 혹은 프로그래밍 실력을 높이고 지역 사회와 협력하여 실제 문제를 해결하는 것을 목표로 합니다. 아시아, 아프리카, 유럽 및 중동, 북아메리카까지 DSC 활동이 일어나고 있으며, 2020년 현재 전 세계 1000여 개의 대학과 함께하고 있습니다.
