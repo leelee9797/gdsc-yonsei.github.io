@@ -11,12 +11,17 @@ author_profile : true
 도정민, 조정원, 오세빈, 임성수, 이한진
 
 #### posts
-|#|ML Research Study| RL |
-|:-------:|:--------:|:--------:|:--------:|
-| 1 | Intro to ML | 2 | 3dsf |
-| 2 | [RL(2)](https://dsc-yonsei.github.io/RL-jeongmin/)
-| 3 | d
-| 4 | s
+|#|Course Name|
+|:-------:|:--------:|
+| 1 | Intro to ML |
+| 2 | Neural Network
+| 3 | Group President
+| 4 | ML Extended
+| 5 | Problem Framing
+| 6 | TensorFlow : First Step with TensorFlow
+| 7 | TensorFlow : Traning Image Classifiers
+| 8 | TensorFlow : ML Practicum Image Captioning
+| 21 | TensorFlow : Building a simple Text Classifier
 
 
 ## ML Engineering Study
