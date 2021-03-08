@@ -4,8 +4,8 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "About"
      url: /about/
-  # - title: "ML Engineering Study"
-  #   url: /ML Engineering Study/
+   - title: "Study"
+     url: /Study/
   # - title: "ML Research Study"
   #   url: /ML Research Study/
   # - title: "Flutter Study"
