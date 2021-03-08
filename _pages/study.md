@@ -11,6 +11,7 @@ author_profile : true
 도정민, 조정원, 오세빈, 임성수, 이한진
 
 #### posts
+## Curriculum 
 
 |#|Course Name|
 |:-------:|:--------:|
