@@ -32,7 +32,7 @@ author_profile : true
 ## Member
 이지연, 이민구, 윤준기, 이호권, 이세호, 김예본, 이준용
 
-### Study 소개
+## Study 소개
 
 ## ML Research Study
 #### 참여 멤버
