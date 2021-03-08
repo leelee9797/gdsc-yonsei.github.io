@@ -14,10 +14,10 @@ author_profile : true
 
 |#| ML Basic | RL | Vision | NLP |
 |:-------:|:--------:|:--------:|:--------:|:--------:| 
-| 1 | Linear Regression | 1 | 2 | 3 | 
-| 2 | Logistic Regression | 1 | 2 | 3 |
-| 3 | Softmax | 1 | 2 | 3 | 
-| 4 | Artificial Neural Network | 1 | 2 | 3 |
+| 1 | Linear Regression | 모두의 강화학습(1) | 2 | 3 | 
+| 2 | Logistic Regression | 모두의 강화학습(2) | 2 | 3 |
+| 3 | Softmax | [강화학습 심화강의(1)](https://dsc-yonsei.github.io/RL-jeongmin/) | 2 | 3 | 
+| 4 | Artificial Neural Network | 강화학습 심화강의(2) | 2 | 3 |
 | 5 | Loss Function | 1 | 2 | 3 | 
 | 6 | Optimizer | 1 | 2 | 3 |
 | 7 | Overfitting, Dropout, Early Stopping | 1 | 2 | 3 |
