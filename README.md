@@ -1,4 +1,4 @@
-## DSC Yonsei Tech Blog
+## DSC Yonsei Tech Blog 필독 해주세요!!
 
 ### 글 작성 방법
 1. _posts 폴더에서 다음과 같은 이름으로 markdown 폴더를 하나 만듭니다.
