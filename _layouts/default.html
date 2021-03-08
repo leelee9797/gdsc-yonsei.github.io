@@ -10,9 +10,6 @@
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
-    {% if page.comments %}
-      {% include comments.html %}
-    {% endif %}
     {% if page.use_math %}
       {% include mathjax_support.html %}
     {% endif %}
@@ -43,6 +40,10 @@
     </div>
 
     {% include scripts.html %}
-
+    
+    
+    {% if page.comments %}
+      {% include comments.html %}
+    {% endif %}
   </body>
 </html>
