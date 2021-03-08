@@ -29,7 +29,7 @@ author : JeongMin Do
 
 위 방법론들을 통해서 Q는 다음과 같이 업데이트 됩니다.
 
-$$Q(s_t, a_t) = (1 - \alpha) Q(s_t, a_t) + \alpha(R_t + \gamma max_{a_{t+1}} Q(s_{t+1}, a_{t+1}))$$
+$$ Q(s_t, a_t) = (1 - \alpha) Q(s_t, a_t) + \alpha(R_t + \gamma max_{a_{t+1}} Q(s_{t+1}, a_{t+1})) $$
 
 ## Markov Decision Process
 강화학습의 핵심적인 이론이라고 할 수도 있을 것 같습니다. 강화학습에서 환경과 에이전트의 지속적인 상호작용은 다음과 같은 수학적 양상으로 표현이 가능합니다.
