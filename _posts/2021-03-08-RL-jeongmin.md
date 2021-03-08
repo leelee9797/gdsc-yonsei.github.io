@@ -10,6 +10,17 @@ author : JeongMin Do
 ---
 
 
+|#|Course Name|
+|:-------:|:--------:|
+| 1 | Intro to ML |
+| 2 | Neural Network
+| 3 | Group President
+| 4 | ML Extended
+| 5 | Problem Framing
+| 6 | TensorFlow : First Step with TensorFlow
+| 7 | TensorFlow : Traning Image Classifiers
+| 8 | TensorFlow : ML Practicum Image Captioning
+| 21 | TensorFlow : Building a simple Text Classifier
 
 이전에 sung kim 교수님의 모두의 강화학습을 통해서 간단하게 강화학습의 전체적인 맥락에 대해서 살펴보았는데, 이번에는 강화학습의 보다 심화된 접근을 해보겠습니다.
 
