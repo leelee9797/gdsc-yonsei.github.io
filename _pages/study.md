@@ -4,7 +4,7 @@ layout : posts
 author_profile : true
 ---
 
-#### Study 소개
+### Study 소개
 
 ## ML Research Study
 #### 참여 멤버
