@@ -14,8 +14,13 @@ author_profile : true
 
 |#| ML Basic | RL | Vision | NLP |
 |:-------:|:--------:|:--------:|:--------:|:--------:| 
-| 1 | Intro to ML | 1 | 2 | 3 | 
-| 2 | Neural Network| 4 | 5 | 6 |
+| 1 | Linear Regression | 1 | 2 | 3 | 
+| 2 | Logistic Regression | 1 | 2 | 3 |
+| 3 | Softmax | 1 | 2 | 3 | 
+| 4 | Artificial Neural Network | 1 | 2 | 3 |
+| 5 | Loss Function | 1 | 2 | 3 | 
+| 6 | Optimizer | 1 | 2 | 3 |
+| 7 | Overfitting, Dropout, Early Stopping | 1 | 2 | 3 |
 
 
 ## ML Engineering Study
