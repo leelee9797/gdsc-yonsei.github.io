@@ -2,7 +2,7 @@
 published : true
 layout : posts
 title: "[ML Research]optimal policy의 수학적 증명과 Monte Carlo method"
-date: 2020-02-24
+date: 2021-03-08
 excerpt: "Q-learning에서 Markov Decision Process, Bellman equation을 통해 optimal policy를 증명하고 MC 방법에 대해 알아본다."
 comments: true
 use_math: true
