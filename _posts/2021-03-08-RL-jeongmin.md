@@ -29,12 +29,12 @@ author : JeongMin Do
 
 위 방법론들을 통해서 Q는 다음과 같이 업데이트 됩니다.
 
-$$ Q(s_t, a_t) = (1 - \alpha) Q(s_t, a_t) + \alpha(R_t + \gamma max_{a_{t+1}} Q(s_{t+1}, a_{t+1})) $$
+$ Q(s_t, a_t) = (1 - \alpha) Q(s_t, a_t) + \alpha(R_t + \gamma max_{a_{t+1}} Q(s_{t+1}, a_{t+1})) $
 
 ## Markov Decision Process
 강화학습의 핵심적인 이론이라고 할 수도 있을 것 같습니다. 강화학습에서 환경과 에이전트의 지속적인 상호작용은 다음과 같은 수학적 양상으로 표현이 가능합니다.
 
-$$s_0, a_0, s_1, a_1,s_2, a_2,s_3, a_3,s_4, a_4 …$$
+$s_0, a_0, s_1, a_1,s_2, a_2,s_3, a_3,s_4, a_4 …$
 
 따라서, 확률과정론의 수학적 이론에 지배를 받는 상황이라고 할 수 있는데, 여기서 MDP는 현재상태는 이전 상태와 행동으로부터 결정된다는 아이디어 입니다.
 
@@ -46,7 +46,7 @@ $$s_0, a_0, s_1, a_1,s_2, a_2,s_3, a_3,s_4, a_4 …$$
 따라서, 보상(reward)이 최대가 되도록 action을 선택하는 것에 이용되게 됩니다(Maximize Expected Return).
 여기서 Return은 아래 식과 같이 표기하도록 합니다.
 
-$$G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} …$$
+$G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} …$
 
 > 이러한 수학적 이론을 토대로 본격적으로 Q-learnning에서의 action 선택 방식이 과연 합리적인가에 대해서 판단할 수 있을 겁니다.
 
@@ -67,9 +67,9 @@ $$G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} …$$
 
 따라서 $V(s_t)$ 를 $Q_{s_t, a_t}$로 표현해 봅시다.
 
-$$V(s_t)$$ 
-$$= \int_{a_t} \int_{s_{t+1} : a_{\infty}} G_t p(s_{t+1}: a_{\infty} \mid s_t, a_t) d s_{t+1} : a_{\infty} p(a_t \mid s_t) da_t $$
-$$ = \int_{a_t} G_t Q(s_t, a_t) p(a_t \mid s_t) da_t $$
+$V(s_t)$ 
+$= \int_{a_t} \int_{s_{t+1} : a_{\infty}} G_t p(s_{t+1}: a_{\infty} \mid s_t, a_t) d s_{t+1} : a_{\infty} p(a_t \mid s_t) da_t $
+$ = \int_{a_t} G_t Q(s_t, a_t) p(a_t \mid s_t) da_t $
 
 이렇게 벨만방정식을 유도할 수 있었습니다. 사실  $V(s_t)$ 를 $Q_{s_t, a_t}$로 표현하는 것 이외에도 총 4가지의 방정식이 도출될 수 있는데, 위에서 본 것의 간단한 적용이라서 생략하도록 하겠습니다.
 
@@ -78,7 +78,7 @@ $$ = \int_{a_t} G_t Q(s_t, a_t) p(a_t \mid s_t) da_t $$
 
 식으로 표현하면 다음과 같습니다.
 
-$$argmax_{p(a_t \mid s_t)} \int_{a_t} G_t Q(s_t, a_t) p(a_t \mid s_t) da_t$$
+$argmax_{p(a_t \mid s_t)} \int_{a_t} G_t Q(s_t, a_t) p(a_t \mid s_t) da_t$
 
 여기서 Q는 미리 안다고 가정할 때, Q가 최대일때의 $a_t$만 계속 sampling하는 probability density function을 생각하시면 됩니다. 결국 이러한 매커니즘으로 인해서 greedy한 action 선택이 이루어진다고 보면 되겠습니다.
 
@@ -87,11 +87,11 @@ $$argmax_{p(a_t \mid s_t)} \int_{a_t} G_t Q(s_t, a_t) p(a_t \mid s_t) da_t$$
 
 아이디어는 N이 충분히 클 때 다음이 성립한다고 가정합니다. 
 
-$$E[x] = \int_{x} xp(x) = {1 \over N} \sum_{i =1}^N x_i$$
+$E[x] = \int_{x} xp(x) = {1 \over N} \sum_{i =1}^N x_i$
 
 이것을 위 식에 적용해보면 다음과 같은 식이 도출됩니다.
 
-$$Q(s_t, a_t) = {1 \over N} \sum_{i = 1}^N G_t^(N)$$
+$Q(s_t, a_t) = {1 \over N} \sum_{i = 1}^N G_t^(N)$
 
 이러한 방법론은 강력함에도 불구하고 단점이 존재하는데, 너무 많은 경우의 수를 탐색해야 하기에 비용이 많이 든다는 것입니다. 따라서 이를 보완한 TD방법론들이 등장하게 되었습니다.
 
