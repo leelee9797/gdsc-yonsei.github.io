@@ -15,6 +15,8 @@ author_profile : true
 |:-------:|:--------:|
 | 1 | Intro to ML |
 | 2 | [RL(2)](https://dsc-yonsei.github.io/RL-jeongmin/)
+| 3 | d
+| 4 | s
 
 
 ## ML Engineering Study
