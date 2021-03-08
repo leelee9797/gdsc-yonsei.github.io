@@ -1,0 +1,23 @@
+# /_data/authors.yml
+
+Jiyeon Lee:
+  name        : "Jiyeon Lee"
+  bio         : "머신러닝을 공부합시다~~"
+  avatar      : "/assets/images/jiyeonlee.png"
+  location : "Seoul, Republic of Korea"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "i3048i@naver.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://butter-shower.tistory.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: #"https://twitter.com/extravagantman"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jiyeoon"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
