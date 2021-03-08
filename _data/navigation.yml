@@ -5,7 +5,7 @@ main:
    - title: "About"
      url: /about/
    - title: "Study"
-     url: /Study/
+     url: /study/
   # - title: "ML Research Study"
   #   url: /ML Research Study/
   # - title: "Flutter Study"
