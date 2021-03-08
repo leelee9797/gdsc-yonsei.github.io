@@ -1,14 +1,14 @@
 # /_data/authors.yml
 
-Jiyeon Lee:
-  name        : "Jiyeon Lee"
-  bio         : "머신러닝을 공부합시다~~"
+JeongMin Do:
+  name        : "JeongMin Do"
+  bio         : "DSC Yonsei Lead"
   avatar      : "/assets/images/jiyeonlee.png"
-  location : "Seoul, Republic of Korea"
+  location : "Hanam, Republic of Korea"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "i3048i@naver.com"
+      url: "dojm0727@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://butter-shower.tistory.com"
@@ -17,7 +17,7 @@ Jiyeon Lee:
       url: #"https://twitter.com/extravagantman"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jiyeoon"
+      url: "https://github.com/silverstar0727"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: #"https://instagram.com/"
