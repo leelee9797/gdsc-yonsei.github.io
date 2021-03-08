@@ -95,7 +95,4 @@ $Q(s_t, a_t) = {1 \over N} \sum_{i = 1}^N G_t^(N)$
 이러한 방법론은 강력함에도 불구하고 단점이 존재하는데, 너무 많은 경우의 수를 탐색해야 하기에 비용이 많이 든다는 것입니다. 따라서 이를 보완한 TD방법론들이 등장하게 되었습니다.
 
 ## Reference 
-* https://www.youtube.com/watch?v=cvctS4xWSaU&list=PL_iJu012NOxehE8fdF9me4TLfbdv3ZW8g 
-
-
-> 본 포스트는 DSC Yonsei의 블로그에 필자가 올린 글을 그대로 가져온 것입니다.
+* [호펜하임 RL 강의](https://www.youtube.com/watch?v=cvctS4xWSaU&list=PL_iJu012NOxehE8fdF9me4TLfbdv3ZW8g)
