@@ -24,10 +24,10 @@ author_profile : true
 
 #### posts
 
-|#|Course Name|
+|#| ML Engineering Study |
 |:-------:|:--------:|
-| 1 | Intro to ML |
-| 2 | Neural Network
+| 1 | A |
+| 2 | B |
 
 
 ## Flutter Study
@@ -35,7 +35,7 @@ author_profile : true
 
 #### posts
 
-|#|Course Name|
+|#| Flutter Study |
 |:-------:|:--------:|
-| 1 | Intro to ML |
-| 2 | Neural Network
+| 1 | A |
+| 2 | B |
