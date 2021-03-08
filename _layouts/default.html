@@ -10,6 +10,8 @@
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
+    {% if page.comments %}
+    {% endif %}
     {% if page.use_math %}
       {% include mathjax_support.html %}
     {% endif %}
