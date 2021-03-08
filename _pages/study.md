@@ -1,5 +1,5 @@
 ---
-permalink : /about/
+permalink : /study/
 layout : posts 
 author_profile : true
 ---
