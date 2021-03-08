@@ -48,3 +48,7 @@ author : JeongMin Do
 ~~~
 [!image](/assets/OptimalPolicy/image1.png)
 ~~~
+
+
+#### 마크다운 사용법
+[이 링크를 참조하여 글을 작성해주세요](https://gist.github.com/danggai/7c2ba1c5e3f923e85411fb740bf514fa)
