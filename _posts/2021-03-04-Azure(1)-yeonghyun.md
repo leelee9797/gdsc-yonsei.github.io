@@ -6,7 +6,7 @@ date: 2021-03-04
 excerpt: "Azure에서의 ML을 training, deploy 과정에 대한 기초에 대해 소개하는 포스트입니다."
 comments: true
 use_math: true
-author : YoengHyun Park
+author : YeongHyun Park
 ---
 
 > Jupyter notebook에서 Azure Machine Learning 작업 영역을 만드는 방법은 [다음페이지](https://docs.microsoft.com/ko-kr/azure/machine-learning/tutorial-1st-experiment-sdk-setup) 에서 확인하실 수 있습니다.
