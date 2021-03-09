@@ -3,7 +3,7 @@ published : true
 layout : posts
 title: "[ML Engineering]Azure에서 ML training, deploy 기초"
 date: 2021-03-04
-excerpt: "Azure에서의 ML을 training, deploy 과정에 대한 기초를 다룬다."
+excerpt: "Azure에서의 ML을 training, deploy 과정에 대한 기초에 대해 소개하는 포스트입니다."
 comments: true
 use_math: true
 author : YoengHyun Park
