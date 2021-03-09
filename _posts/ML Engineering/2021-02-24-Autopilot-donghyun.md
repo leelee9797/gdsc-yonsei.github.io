@@ -9,7 +9,7 @@ use_math: true
 author : DongHyun Kim
 ---
 
-# Autopilot 이란? basdvads
+# Autopilot 이란?
 
 흔히들 AutoML이라고도 부르는 Autopilot은 표 데이터를 기반으로 자동으로 머신러닝을 적용해주는 솔루션입니다. 다양한 방법으로 사용할 수 있는데 자동으로 사용하기, 사람의 지도를 통해 사용하기, 코드없이 SageMaker Studio를 통해 사용하기, AWS SDKs를 사용하기 등 다양한 방식으로 이용할 수 있습니다.
 
