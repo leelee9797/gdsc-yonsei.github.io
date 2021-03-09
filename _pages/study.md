@@ -31,9 +31,9 @@ author_profile : true
 
 |#| ML Engineering Study |
 |:-------:|:--------:|
-| 1 | AWS SageMaker에서 pre-built된 모델 이용하기 |
+| 1 | [AWS SageMaker에서 pre-built된 모델 이용하기](https://dsc-yonsei.github.io/SageMakerPrebuilt-yeonghyun/) |
 | 2 | AWS SageMaker에서 커스텀 모델 사용하기 |
-| 3 | AWS SageMaker Autopilot 시작하기(은행 마케팅 데이터 활용) |
+| 3 | [AWS SageMaker Autopilot 시작하기(은행 마케팅 데이터 활용)](https://dsc-yonsei.github.io/Autopilot-donghyun/) |
 | 4 | [Azure에서 ML training, deploy 기초](https://dsc-yonsei.github.io/Azure(1)-yeonghyun/) |
 | 5 | Azure에서 ML designer, nni 사용 |
 | 6 | Docker(1) |
