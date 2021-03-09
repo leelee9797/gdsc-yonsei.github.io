@@ -34,7 +34,7 @@ author_profile : true
 | 1 | AWS SageMaker에서 pre-built된 모델 이용하기 |
 | 2 | AWS SageMaker에서 커스텀 모델 사용하기 |
 | 3 | AWS SageMaker Autopilot 시작하기(은행 마케팅 데이터 활용) |
-| 4 | [Azure에서 ML training, deploy 기초]() |
+| 4 | [Azure에서 ML training, deploy 기초](https://dsc-yonsei.github.io/Azure(1)-yeonghyun/) |
 
 ## Flutter Study
 #### 참여 멤버
