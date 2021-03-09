@@ -41,12 +41,12 @@ author : JeongMin Do
 2. 마크 다운에서 아래와 같은 명령어를 입력해주세요.
 
 ~~~
-[!image](/assets/<제목>/<이미지명>)
+![image](/assets/<제목>/<이미지명>)
 ~~~
 
 * Example
 ~~~
-[!image](/assets/OptimalPolicy/image1.png)
+![image](/assets/OptimalPolicy/image1.png)
 ~~~
 
 
