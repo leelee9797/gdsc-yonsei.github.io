@@ -2,7 +2,7 @@
 
 JeongMin Do:
   name        : "JeongMin Do"
-  bio         : "DSC Yonsei Lead, major: Computer Science, Physics"
+  bio         : "DSC Yonsei Lead, major: Computer Science, Physics, grade: junior"
   avatar      : "/assets/profile/jeongmin.jpeg"
   location : "Republic of Korea"
   links:
@@ -24,7 +24,7 @@ JeongMin Do:
       
 YeongHyun Park:
   name        : "YeongHyun Park"
-  bio         : "DSC Yonsei CoreMember, major: Statistics"
+  bio         : "DSC Yonsei CoreMember, major: Statistics, grade: junior"
   avatar      : # "/assets/profile/jeongmin.jpeg"
   location : "Republic of Korea"
   links:
