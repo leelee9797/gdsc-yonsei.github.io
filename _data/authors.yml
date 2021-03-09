@@ -84,3 +84,25 @@ SeBin Oh:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ohsebin"
+
+Jaewon Kim:
+  name        : "Jaewon Kim"
+  major       : "major: Health Administration, Major in Information & Statistics”
+  avatar      : #"/assets/profile"
+  location : "Republic of Korea"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url:  “tohone06@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: #""
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: #""
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: #""
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: #""
