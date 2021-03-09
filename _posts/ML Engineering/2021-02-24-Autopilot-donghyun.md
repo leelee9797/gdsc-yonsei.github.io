@@ -325,17 +325,3 @@ Autopilot을 진행하면서 생성된 많은 것들이 존재하는데 AWS에 �
 [##_Image|kage@brqi1I/btqYmHIZqa4/c6zHbkZ4o91l8L70Q6YGq1/img.png|alignCenter|data-origin-width="1772" data-origin-height="556" data-filename="image-20210223223227217.png" data-ke-mobilestyle="widthContent"|Autopilot으로 생성된 모델은 손수 삭제||_##]
 
 참조 링크:[sagemaker-examples.readthedocs.io/en/latest/autopilot/index.html](https://sagemaker-examples.readthedocs.io/en/latest/autopilot/index.html)
-
-[
-
-Get started with Autopilot — Amazon SageMaker Examples 1.0.0 documentation
-
-© Copyright 2020, Amazon Web Services, Inc. or its affiliates. All rights reserved. Revision 0ff8b06e.
-
-sagemaker-examples.readthedocs.io
-
-
-
-](https://sagemaker-examples.readthedocs.io/en/latest/autopilot/index.html)
-
-작성자: 김동현
