@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "DSC Yonsei Univ."
   avatar           : "/assets/images/DSC.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Google Developers DSC Yonsei Tech Blog(bio)."
+  bio              : "Google Developers DSC Yonsei Tech Blog."
   location         : "wonju, Korea"
   email            :
   links:
