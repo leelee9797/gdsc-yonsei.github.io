@@ -14,13 +14,13 @@ author_profile : true
 
 |#| ML Basic | RL | Vision | NLP |
 |:-------:|:--------:|:--------:|:--------:|:--------:| 
-| 1 | Linear Regression | 모두의 강화학습(1) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(1) | 3 | 
-| 2 | Logistic Regression | 모두의 강화학습(2) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(2) | 3 |
-| 3 | Softmax | [강화학습 심화강의(1)](https://dsc-yonsei.github.io/RL-jeongmin/) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(3) | 3 | 
-| 4 | Artificial Neural Network | 강화학습 심화강의(2) | 2 | 3 |
-| 5 | Loss Function | 1 | 2 | 3 | 
-| 6 | Optimizer | 1 | 2 | 3 |
-| 7 | Overfitting, Dropout, Early Stopping | 1 | 2 | 3 |
+| 1 | Linear Regression | 모두의 강화학습(1) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(1) |  | 
+| 2 | Logistic Regression | 모두의 강화학습(2) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(2) |  |
+| 3 | Softmax | [강화학습 심화강의(1)](https://dsc-yonsei.github.io/RL-jeongmin/) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(3) |  | 
+| 4 | Artificial Neural Network | 강화학습 심화강의(2) |  |  |
+| 5 | Loss Function |  |  |  | 
+| 6 | Optimizer |  |  |  |
+| 7 | Overfitting, Dropout, Early Stopping |  |  |  |
 
 
 ## ML Engineering Study
@@ -35,6 +35,16 @@ author_profile : true
 | 2 | AWS SageMaker에서 커스텀 모델 사용하기 |
 | 3 | AWS SageMaker Autopilot 시작하기(은행 마케팅 데이터 활용) |
 | 4 | [Azure에서 ML training, deploy 기초](https://dsc-yonsei.github.io/Azure(1)-yeonghyun/) |
+| 5 | Azure에서 ML designer, nni 사용 |
+| 6 | Docker(1) |
+| 7 | Docker(2) |
+| 8 | Docker(3) |
+| 9 | Kubernetes(1) |
+| 10 | Kubernetes(2) |
+| 11 | Kubernetes(3) |
+| 12 | Kubernetes(4) |
+| 13 | Kubeflow(5) |
+| 14 | Kubeflow(6) |
 
 ## Flutter Study
 #### 참여 멤버
