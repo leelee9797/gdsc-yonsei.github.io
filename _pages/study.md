@@ -35,7 +35,7 @@ author_profile : true
 | 2 | AWS SageMaker에서 커스텀 모델 사용하기 |
 | 3 | [AWS SageMaker Autopilot 시작하기(은행 마케팅 데이터 활용)](https://dsc-yonsei.github.io/Autopilot-donghyun/) |
 | 4 | [Azure에서 ML training, deploy 기초](https://dsc-yonsei.github.io/Azure(1)-yeonghyun/) |
-| 5 | Azure에서 ML designer, nni 사용 |
+| 5 | [Azure에서 ML designer 기초](https://dsc-yonsei.github.io/AzureDesigner-jeongmin/) |
 | 6 | Docker(1) |
 | 7 | Docker(2) |
 | 8 | Docker(3) |
