@@ -22,6 +22,7 @@ author_profile : true
 | 6 | [Activation Function](https://dsc-yonsei.github.io/ActivationFunction-jeongmin/) |  | OpenCV를 이용한 컴퓨터 비전 학습(6) |  |
 | 7 | Optimizer |  |  |  |
 | 8 | Overfitting, Dropout, Early Stopping |  |  |  |
+| 9 | Metric |  |  |  |
 
 
 ## ML Engineering Study
