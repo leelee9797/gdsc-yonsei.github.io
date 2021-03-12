@@ -8,7 +8,7 @@ author_profile : true
 
 ## ML Research Study
 #### 참여 멤버
-도정민, 조정원, 오세빈, 임성수, 이한진
+도정민, 조정원, 오세빈, 임성수
 
 #### posts
 
