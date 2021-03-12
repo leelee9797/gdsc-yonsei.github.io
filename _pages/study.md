@@ -23,7 +23,7 @@ author_profile : true
 | 7 | Optimizer |  |  |  |
 | 8 | Overfitting, Dropout, Early Stopping |  |  |  |
 | 9 | Metric |  |  |  |
-
+| 10 | CNN |  |  |  |
 
 ## ML Engineering Study
 #### 참여 멤버
