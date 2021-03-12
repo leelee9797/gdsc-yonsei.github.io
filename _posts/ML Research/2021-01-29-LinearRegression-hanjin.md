@@ -15,18 +15,18 @@ author : HanJin Lee
 
 종속 변수 Y를 독립 변수 X들의 선형 결합으로 표현한 모델입니다.
 
-$$ Y = \\beta\_0+\\beta\_1X\_1+\\beta\_2X\_2+\\dots+\\beta\_pX\_p $$
+$ Y = \\beta\_0+\\beta\_1X\_1+\\beta\_2X\_2+\\dots+\\beta\_pX\_p $
 
 독립 변수 하나만으로 종속 변수를 예측하는 모델을 단순 선형 회귀 모델(Simple Linear Regression Model)이라고 합니다.
 
-$$ Y = \\beta\_0+\\beta\_1X\_1 $$
+$ Y = \\beta\_0+\\beta\_1X\_1 $
 
 회귀 모델 파악을 쉽게 하기 위해 단순 선형 회귀 모델을 구현해보겠습니다.
 
 -   **선형 회귀 가정**
 
 선형 회귀 모델에서 우리는 몇가지 가정을 하는데,  
-$$ Y\_i=\\beta\_0+\\beta\_1X\_i+\\epsilon $$  
+$ Y\_i=\\beta\_0+\\beta\_1X\_i+\\epsilon $
 에서, 오차항 $\\epsilon$은 정규분포 $N(0,\\sigma^2)$를 따르고, $E(\\epsilon\_i)=0, V(\\epsilon\_i)=\\sigma^2$이라고 가정합니다.
 
 여기서, 오차항 $\\epsilon$은 $X$로는 설명되지 않는, 그래프에서는 회귀하는 직선에서 벗어나있는 정도라고 말할 수 있습니다.
@@ -36,9 +36,10 @@ $$ Y\_i=\\beta\_0+\\beta\_1X\_i+\\epsilon $$
 선형 회귀 모델에서 가중치를 추정하는 방법은, 오차제곱합 즉 $\\sum\_{i=1}^n\[Y\_i-(\\beta\_0+\\beta\_1X\_i)\]^2$의 결과가 가장 작아지게 하는 $\\beta\_0$, $\\beta\_1$를 찾아내는 것입니다. 여기서, $\\sum\_{i=1}^n\[Y\_i-(\\beta\_0+\\beta\_1X\_i)\]^2$이 식을 비용함수(cost function) 또는 손실함수(loss function)라고 합니다.
 
 손실함수를 미분한 값의 기울기가 0일 떄, 손실함수의 최소값이 되는데, 복잡한 식을 통해 $\\hat\\beta\_0$, $\\hat\\beta\_1$을 도출해내면 다음과 같습니다.  
-$$\\hat\\beta\_0=\\bar Y-\\hat\\beta\_0\\bar X$$
 
-$$\\hat{\\beta\_1}=\\frac{\\sum\_{i=1}^n(X\_i-\\bar{X})(Y\_i-\\bar{X})}{\\sum\_{i=1}^n(X\_i-\\bar{X})^2}$$
+$\\hat\\beta\_0=\\bar Y-\\hat\\beta\_0\\bar X$
+
+$\\hat{\\beta\_1}=\\frac{\\sum\_{i=1}^n(X\_i-\\bar{X})(Y\_i-\\bar{X})}{\\sum\_{i=1}^n(X\_i-\\bar{X})^2}$
 
 위와 같은 알고리즘을 최소제곱법이라고 합니다.
 
@@ -106,7 +107,8 @@ plt.show()
 
 단순 선형 회귀 모델이므로,  
 입력 차원과 출력 차원 모두 1로 설정합니다.  
-$$ H(x)=Wx+b$$
+
+$ H(x)=Wx+b$
 
 ```
 model = nn.Linear(1, 1)
@@ -115,7 +117,8 @@ model = nn.Linear(1, 1)
 ## loss function 설정
 
 손실 함수는 평균 제곱 오차(MSE)를 사용했습니다.  
-$$cost(W, b)=\\frac{1}{n}\\sum\_{i=1}^n\[Y\_i-\\hat{Y}\_i\]^2$$
+
+$cost(W, b)=\\frac{1}{n}\\sum\_{i=1}^n\[Y\_i-\\hat{Y}\_i\]^2$
 
 수식으로는 위와 같이 쓸 수 있고, $Y$가 원래의 값, $\\hat{Y}$가 예측값입니다. 즉, 각각의 오차의 제곱합의 평균을 구하는 함수를 손실함수로 잡습니다.
 
@@ -128,7 +131,8 @@ loss_func = nn.MSELoss()
 확률적 경사 하강법(SGD)을 사용했습니다.
 
 다음 식은 경사 하강법(GD)입니다.  
-$$ W\\leftarrow W-\\eta\\frac{\\partial L}{\\partial W}$$
+
+$ W\\leftarrow W-\\eta\\frac{\\partial L}{\\partial W}$
 
 여기에서 $W$는 갱신할 가중치 매개변수, $\\frac{\\partial L}{\\partial W}$는 $W$에 대한 손실 함수의 기울기입니다. $\\eta$는 학습률(learning rate)를 의미합니다.
 
