@@ -131,3 +131,26 @@ HanJin Lee:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: #""
+
+DongHyun Kim:
+  name        : "DongHyun Kim"
+  bio         : "DSC Yonsei Member"
+  major       : "major: Computer& Telecommunications Engineering"
+  avatar      : #""
+  location : "Republic of Korea"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "zoown13@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://zoown13.medium.com/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: #
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zoown13"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: #
