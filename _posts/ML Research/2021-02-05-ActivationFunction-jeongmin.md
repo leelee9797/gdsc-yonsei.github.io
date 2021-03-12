@@ -8,10 +8,6 @@ comments: true
 use_math: true
 author : JeongMin Do
 ---
-
-
-# Activation Fucntion
-
 앞서 DSC Yonsei 임성수 님께서 작성해 주신 Logistic Regression post에서 input과 가중치의 선형결합을 sigmoid 함수에 넣어서 output으로 이진분류를 하는 것을 배웠습니다.
 
 또한 저의 지난 post인 ANN(Artificial Neural Network)에서는 MLP에서 각 노드들이 선형결합을 하고 activation function을 통해 노드의 input을 일종의 신호로 반환한다는 것을 배웠습니다.
