@@ -43,8 +43,10 @@ author_profile : true
 | 10 | Kubernetes(2) |
 | 11 | Kubernetes(3) |
 | 12 | Kubernetes(4) |
-| 13 | Kubeflow(5) |
-| 14 | Kubeflow(6) |
+| 13 | Kubeflow(1) |
+| 14 | Kubeflow(2) |
+| 15 | MLOps on GCP(1) |
+| 16 | MLOps on GCP(2) |
 
 ## Flutter Study
 #### 참여 멤버
