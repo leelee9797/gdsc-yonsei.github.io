@@ -14,7 +14,7 @@ author_profile : true
 
 |#| ML Basic | RL | Vision | NLP |
 |:-------:|:--------:|:--------:|:--------:|:--------:| 
-| 1 | Linear Regression | 모두의 강화학습(1) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(1) | Text Tokenizer | 
+| 1 | [Linear Regression](https://dsc-yonsei.github.io/LinearRegression-hanjin/) | 모두의 강화학습(1) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(1) | Text Tokenizer | 
 | 2 | Logistic Regression | 모두의 강화학습(2) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(2) | RNN |
 | 3 | Softmax | [강화학습 심화강의(1)](https://dsc-yonsei.github.io/RL-jeongmin/) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(3) | LSTM | 
 | 4 | [Artificial Neural Network](https://dsc-yonsei.github.io/ANN-jeongmin/) | 강화학습 심화강의(2) | 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(4) |  |
