@@ -1356,35 +1356,3 @@ for file_name in glob.glob('./test_*.png'):
 DSC Yonsei 오세빈
 
 E-mail:[osb3372@yonsei.ac.kr](http://osb3372@yonsei.ac.kr/)
-\[\[0.\]\]
-
-[##_Image|kage@KiqfR/btqX32HtgMJ/wTCyDciY39PAGmZ0kwt27k/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
-
-
-\[\[1.\]\]
-
-[##_Image|kage@lMz0r/btqYgFRsase/LuSQDNYKhW9kdbTiKBlCc0/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
-
-
-\[\[9.\]\]
-
-<br/>
-
-# 🤝 마치며
-
-이상 Python을 이용한 데이터 분석과 이미지 처리에 대해 알아보았습니다.
-이 포스트 내용 이외에 더 궁금하신 분은 아래의 글을 참고해주시길 바랍니다.
-
-<br/>
-
-### Reference
-
-[https://www.youtube.com/watch?v=F2FRpmh9sQo&list=PLRx0vPvlEmdBx9X5xSgcEk4CEbzEiws8C&index=7](https://www.youtube.com/watch?v=F2FRpmh9sQo&list=PLRx0vPvlEmdBx9X5xSgcEk4CEbzEiws8C&index=7)
-
-<br/>
-
-### 글쓴이
-
-DSC Yonsei 오세빈
-
-E-mail:[osb3372@yonsei.ac.kr](http://osb3372@yonsei.ac.kr/)
