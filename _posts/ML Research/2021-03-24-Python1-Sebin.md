@@ -11,12 +11,13 @@ author : SeBin Oh
 
 <br/>
 
-안녕하세요~ 여러분! 😄
+안녕하세요~ 여러분! 😄  
+
 오늘은 Python을 이용한 데이터 분석과 이미지 처리에 대해 알아보도록 하겠습니다.
 
 <br/>
 
-목차는 다음과 같습니다.
+✍ 목차는 다음과 같습니다.
 
 <br/>
 
@@ -31,31 +32,31 @@ author : SeBin Oh
    * [OpenCV Tracker](#opencv-tracker)
    * [OpenCV Contours](#opencv-contours)
    * [OpenCV Contours 처리](#opencv-contours-처리)
-   * [OpenCV Filtering](#opencv-filtering)
+   * [OpenCV Filtering](#opencv-filtering) 
 - [KNN Algorithm](#knn-algorithm)
    * [KNN이란?](#knnk-nearest-neighbor이란)
    * [KNN 숫자 인식 예제](#knn-숫자-인식-예제)
 
 <br/>
-
+   
 본문은 **동빈나** 유튜브의 'Python 데이터 분석과 이미지 처리' 강의(7~18)를 참고하여 재구성하였으며 대부분의 실습은 **CoLab** 과 **PyCharm**을 이용하였습니다.
 
 [<span style="color:skyblue">강의링크</span>](https://www.youtube.com/watch?v=F2FRpmh9sQo&list=PLRx0vPvlEmdBx9X5xSgcEk4CEbzEiws8C&index=7)  
 
 <br/>
 
-우선 OpenCV에 대해서 하나씩 살펴보도록 하겠습니다!
+🌱 우선 OpenCV에 대해서 하나씩 살펴보도록 하겠습니다!
 
 <br/>
 
 # 📱 OpenCV 소개
 
 Open Source Computer Vision Library  
-컴퓨터 비전을 위한 오픈소스 라이브러리를 말합니다.
+컴퓨터 비전을 위한 오픈소스 라이브러리를 말합니다. 
 
 - 이미지 처리에 초점
 - C, C++, Python 등에서 사용 가능
-
+ 
 <br/>
 
 다음으로 OpenCV의 기본적인 사용법에 대해 살펴보겠습니다!
@@ -73,7 +74,7 @@ OpenCV에서는 다음과 같은 함수를 자주 사용합니다.
 > cv2.imread(fileName, flag) : 이미지를 읽어 Numpy 객체로 만드는 함수
 >   
 > cv2.imshow(title, image) : 특정한 이미지를 화면에 출력하는 함수  
->
+> 
 > cv2.imwrite(fileName, image) : 특정한 이미지를 파일로 저장하는 함수  
 >
 > cv2.waitKey(time) : 키보드 입력을 처리하는 함수  
@@ -104,13 +105,14 @@ plt.imshow(cv2.cvtColor(img_basic, cv2.COLOR_GRAY2RGB))
 plt.show()
 ```
 
-[##_Image|kage@AGlT7/btqXSnqNqco/T03qeYIcvS11Cs4O5d3yNk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@bgoKdD/btqXQ4ytNut/S9driBO2PnsePPk3GdRAuK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FAGlT7%2FbtqXSnqNqco%2FT03qeYIcvS11Cs4O5d3yNk%2Fimg.png)
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbgoKdD%2FbtqXQ4ytNut%2FS9driBO2PnsePPk3GdRAuK%2Fimg.png)
 
 <br/>
 
 # 📷 OpenCV 이미지 처리 방법
 
-이제 OpenCV를 이용하여 기본적인 이미지를 처리하는 방법에 대하여 하나씩 알아보겠습니다!  
+🌱 이제 OpenCV를 이용하여 기본적인 이미지를 처리하는 방법에 대하여 하나씩 알아보겠습니다!  
 글은 전반적으로 간단한 설명과 예제 위주로 서술하였습니다. 자세한 설명은 강의를 참고하시기 바랍니다.
 
 <br/>
@@ -181,7 +183,7 @@ plt.show()
 \--- 0.016465187072753906 seconds ---  
 \--- 0.0002148151397705078 seconds ---
 
-[##_Image|kage@S83z2/btqXToiFLle/HVOdvjMMKBzbSCN7soRDbk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FS83z2%2FbtqXToiFLle%2FHVOdvjMMKBzbSCN7soRDbk%2Fimg.png)
 
 <br/>
 
@@ -209,7 +211,7 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@dSDy72/btqXXjOFyCq/aThAQ2jaVC4oQs1tGnEIWk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdSDy72%2FbtqXXjOFyCq%2FaThAQ2jaVC4oQs1tGnEIWk%2Fimg.png)
 
 <br/>
 
@@ -232,11 +234,13 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@wxZIq/btqXU4qJBds/YKZGUXxDUfAvXjksr9QJSk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwxZIq%2FbtqXU4qJBds%2FYKZGUXxDUfAvXjksr9QJSk%2Fimg.png)
 
 <br/>
 
 ## 🎞 OpenCV 이미지 변형
+
+<br/>
 
 ### 이미지 크기 조절
 
@@ -246,7 +250,7 @@ plt.show()
 
 크기가 변할 때 중간값을 가지거나 특정한 분포를 따르게 하여 매끄럽게 픽셀 사이의 값을 조절하는 방법을 말합니다.
 
-[##_Image|kage@wkWhZ/btqXMdbCpKD/0bwkcBSiO4okaShnInR6x0/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwkWhZ%2FbtqXMdbCpKD%2F0bwkcBSiO4okaShnInR6x0%2Fimg.png)
 
 <br/>
 
@@ -279,7 +283,7 @@ plt.imshow(cv2.cvtColor(shrink, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@BPn9l/btqXTopsCzF/FgkRXpLUCkxl8fgDkZVVAK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBPn9l%2FbtqXTopsCzF%2FFgkRXpLUCkxl8fgDkZVVAK%2Fimg.png)
 
 <br/>
 
@@ -303,12 +307,18 @@ plt.show()
 <br/>
 
 - 변환 행렬의 다음과 같은 형태로 정의되고
-    [##_Image|kage@byu9uh/btqXXVUp2sK/hjDoAu1LPjePC0LTsRZVYk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
+<br/>
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbyu9uh%2FbtqXXVUp2sK%2FhjDoAu1LPjePC0LTsRZVYk%2Fimg.png)
 
 <br/>
 
 - 이미지의 모든 좌표(a, b)는 다음의 좌표로 이동됩니다.  
-    [##_Image|kage@uVakk/btqXYpAWPon/hKULvVfNNP7teJx2a01Of0/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
+<br/>
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuVakk%2FbtqXYpAWPon%2FhKULvVfNNP7teJx2a01Of0%2Fimg.png)
 
 <br/>
 
@@ -329,7 +339,7 @@ plt.imshow(cv2.cvtColor(dst, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@bNTxIt/btqXXT3mQVC/2qVKqn2rcsSESglezHBrLk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNTxIt%2FbtqXXT3mQVC%2F2qVKqn2rcsSESglezHBrLk%2Fimg.png)
 
 <br/>
 
@@ -352,12 +362,18 @@ plt.show()
 <br/>
 
 - 회전 변환을 위한 행렬은 다음과 같습니다.  
-    [##_Image|kage@bmULCu/btqXXU2jwkm/fK9kaZsaYVtf2F9ZNVJJkk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
+<br/>
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbmULCu%2FbtqXXU2jwkm%2FfK9kaZsaYVtf2F9ZNVJJkk%2Fimg.png)
 
 <br/>
 
 - 이때 무게 중심을 적용할 수 있는 회전 변환 식은 다음과 같이 정의할 수 있습니다.  
-    [##_Image|kage@dr6Pm9/btqXQ5df5AH/4KMzRGxFgv4srELnlaNRK0/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
+<br/>
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdr6Pm9%2FbtqXQ5df5AH%2F4KMzRGxFgv4srELnlaNRK0%2Fimg.png)
 
 <br/>
 
@@ -378,7 +394,7 @@ plt.imshow(cv2.cvtColor(dst, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@biA5Se/btqXXkmBXBV/yFWOMkCHIXs1pdNeBF2Avk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbiA5Se%2FbtqXXkmBXBV%2FyFWOMkCHIXs1pdNeBF2Avk%2Fimg.png)
 
 <br/>
 
@@ -390,11 +406,13 @@ plt.show()
 
 <br/>
 
-[##_Image|kage@P0XrH/btqXQ4yEaz1/Q0A4BLMlQF2UmXiycjCM9K/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FP0XrH%2FbtqXQ4yEaz1%2FQ0A4BLMlQF2UmXiycjCM9K%2Fimg.png)
 
 <br/>
 
 ### 이미지를 합치는 2가지 방법
+
+<br/>
 
 아래의 두 함수를 이용하여 각각 이미지를 합쳐보도록 하겠습니다.
 
@@ -405,7 +423,7 @@ plt.show()
 
 <br/>
 
-[##_Image|kage@cgM0uO/btqXTmL0HXM/VlCg8PiM8ZFR6Trckeyfi1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgM0uO%2FbtqXTmL0HXM%2FVlCg8PiM8ZFR6Trckeyfi1%2Fimg.png)
 
 <br/>
 
@@ -414,7 +432,7 @@ plt.show()
 
 <br/>
 
-[##_Image|kage@7X7ve/btqXRvJtorB/sAQadrKIkTZFMIV1nUxTo1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F7X7ve%2FbtqXRvJtorB%2FsAQadrKIkTZFMIV1nUxTo1%2Fimg.png)
 
 <br/>
 
@@ -434,11 +452,13 @@ plt.imshow(cv2.cvtColor(result, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@cxr18w/btqXU27Aryc/FIbLDlKVweZYmtUnJQJw41/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcxr18w%2FbtqXU27Aryc%2FFIbLDlKVweZYmtUnJQJw41%2Fimg.png)
 
 <br/>
 
 ## 〽 OpenCV 임계점 처리하기
+
+<br/>
 
 다음과 같은 방법을 통하여 이미지의 임계점을 처리할 수 있습니다.
 
@@ -463,7 +483,7 @@ plt.show()
 
 <br/>
 
-[##_Image|kage@9x8aV/btqXOaMGRHf/3ZRekcvCAwy8RkP1ibAr21/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9x8aV%2FbtqXOaMGRHf%2F3ZRekcvCAwy8RkP1ibAr21%2Fimg.png)
 
 <br/>
 
@@ -490,7 +510,8 @@ for i in images:
   plt.show()
 ```
 
-[##_Image|kage@cBjoX5/btqXYZI1ZT2/gKk2ofwyFjsIEXc76Ebxkk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@bWTAsa/btqXXUhbgzC/7Y4uYu4kkl2olUVEGjLvGK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcBjoX5%2FbtqXYZI1ZT2%2FgKk2ofwyFjsIEXc76Ebxkk%2Fimg.png)
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbWTAsa%2FbtqXXUhbgzC%2F7Y4uYu4kkl2olUVEGjLvGK%2Fimg.png)
 
 <br/>
 
@@ -502,7 +523,7 @@ for i in images:
 
 <br/>
 
-[##_Image|kage@cBdbk3/btqXU4K7fDO/4USdGvf75hFtzKw3IiF7pk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcBdbk3%2FbtqXU4K7fDO%2F4USdGvf75hFtzKw3IiF7pk%2Fimg.png)
 
 <br/>
 
@@ -530,7 +551,7 @@ Adaptive Threshold를 이용하면, 전체 픽셀을 기준으로 임계 값을 
 
 <br/>
 
-[##_Image|kage@tWCbA/btqXXUnI4uS/insOZcBqkWB2PyMtmA7Kj1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtWCbA%2FbtqXXUnI4uS%2FinsOZcBqkWB2PyMtmA7Kj1%2Fimg.png)
 
 <br/>
 
@@ -560,11 +581,13 @@ plt.imshow(cv2.cvtColor(thres2, cv2.COLOR_GRAY2RGB))
 plt.show()
 ```
 
-[##_Image|kage@GxAmh/btqXU4dxx90/hi9Rtkx3MWYxw3kjZnYWb0/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGxAmh%2FbtqXU4dxx90%2Fhi9Rtkx3MWYxw3kjZnYWb0%2Fimg.png)
 
 <br/>
 
 ## ⏸ OpenCV Tracker
+
+<br/>
 
 **Tracker** 란 사용자가 값을 편하게 슬라이드 바를 이용하여 움직여보면서 바꿀 수 있는 기능입니다.
 
@@ -612,11 +635,13 @@ cv2.imshow('Image', image)
 cv2.waitKey(0)
 ```
 
-[##_Image|kage@ESF4T/btqXXkmTATp/6Tt12T4Nm8lqrIz6jU2jfk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FESF4T%2FbtqXXkmTATp%2F6Tt12T4Nm8lqrIz6jU2jfk%2Fimg.png)
 
 <br/>
 
 ## 🔸 OpenCV 도형 그리기
+
+<br/>
 
 OpenCV에서는 다양한 도형을 그릴 수 있습니다.
 
@@ -646,7 +671,7 @@ plt.imshow(image)
 plt.show()
 ```
 
-[##_Image|kage@wsc58/btqXY1z6P4B/2dNCfkmdYMtfLMtaMZ42lk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fwsc58%2FbtqXY1z6P4B%2F2dNCfkmdYMtfLMtaMZ42lk%2Fimg.png)
 
 <br/>
 
@@ -674,7 +699,7 @@ plt.imshow(image)
 plt.show()
 ```
 
-[##_Image|kage@oiI7o/btqXY1z6UqO/rckd5PJIflzjI9BA6ZV9G1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoiI7o%2FbtqXY1z6UqO%2Frckd5PJIflzjI9BA6ZV9G1%2Fimg.png)
 
 <br/>
 
@@ -702,7 +727,7 @@ plt.imshow(image)
 plt.show()
 ```
 
-[##_Image|kage@TWhvf/btqXU3TfQmR/o3p6GkQ2Y6EN7Jf9tXpujk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FTWhvf%2FbtqXU3TfQmR%2Fo3p6GkQ2Y6EN7Jf9tXpujk%2Fimg.png)
 
 <br/>
 
@@ -731,7 +756,7 @@ plt.imshow(image)
 plt.show()
 ```
 
-[##_Image|kage@df3pYt/btqXQ4S7SGX/kCzUHpbgoZKDVdjUyX3VI1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdf3pYt%2FbtqXQ4S7SGX%2FkCzUHpbgoZKDVdjUyX3VI1%2Fimg.png)
 
 <br/>
 
@@ -759,15 +784,19 @@ plt.imshow(image)
 plt.show()
 ```
 
-[##_Image|kage@pT8mH/btqXXjnXcdc/PSuKcMtONzGVwUClb0a681/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpT8mH%2FbtqXXjnXcdc%2FPSuKcMtONzGVwUClb0a681%2Fimg.png)
 
 <br/>
 
 ## 📪 OpenCV Contours
 
+<br/>
+
 **Contour**란 윤곽, 테두리을 말합니다.
 
-### Contours 찾기
+<br/>
+
+### Contours 찾기 
 
 <br/>
 
@@ -814,11 +843,13 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@ow1i9/btqXSnYX7vF/fqGsTXgR7LFkLkqzVoP5ok/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fow1i9%2FbtqXSnYX7vF%2FfqGsTXgR7LFkLkqzVoP5ok%2Fimg.png)
 
 <br/>
 
 ## 📬 OpenCV Contours 처리
+
+<br/>
 
 ### Contour의 사각형 외각 찾기
 
@@ -856,7 +887,7 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR\_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@be5ryY/btqYhzi80ZT/wHbobng6xCKzF58Ktb7jP1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbe5ryY%2FbtqYhzi80ZT%2FwHbobng6xCKzF58Ktb7jP1%2Fimg.png)
 
 <br/>
 
@@ -893,7 +924,7 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@b1xDJr/btqX1oD15tM/K5YX2MA7gnCQo746OyBFWK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb1xDJr%2FbtqX1oD15tM%2FK5YX2MA7gnCQo746OyBFWK%2Fimg.png)
 
 <br/>
 
@@ -933,7 +964,7 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@eJQhFN/btqX1pJG26Y/TM3kXjGeDox7TGrVghvegK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeJQhFN%2FbtqX1pJG26Y%2FTM3kXjGeDox7TGrVghvegK%2Fimg.png)
 
 <br/>
 
@@ -979,11 +1010,13 @@ plt.show()
 1112.1046812534332  
 {'m00': 9637.5, 'm10': 2328654.1666666665, 'm01': 525860.6666666666, 'm20': 592439950.25, 'm11': 125395340.54166666, 'm02': 32616659.75, 'm30': 157199366984.05002, 'm21': 31597487112.5, 'm12': 7677332730.433333, 'm03': 2223038890.5, 'mu20': 29780523.227014065, 'mu11': -1665373.5978347063, 'mu02': 3923591.96819859, 'mu30': -339915780.7390442, 'mu21': 76375946.41720533, 'mu12': -21905836.49518633, 'mu03': 15169233.760740757, 'nu20': 0.3206295471760697, 'nu11': -0.01793010748946005, 'nu02': 0.04224302932750429, 'nu30': -0.03727866486560947, 'nu21': 0.008376172780476334, 'nu12': -0.0024024196097321344, 'nu03': 0.001663614382378067}
 
-[##_Image|kage@m9Yps/btqX6gS3VIC/eyaOcV3XR8rObkQqz3FFt1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fm9Yps%2FbtqX6gS3VIC%2FeyaOcV3XR8rObkQqz3FFt1%2Fimg.png)
 
 <br/>
 
 ## 💈 OpenCV Filtering
+
+<br/>
 
 ### 필터링이란?
 
@@ -1002,9 +1035,7 @@ plt.show()
 
 <br/>
 
-\[##\_Image|kage@bP1ouz/btqYgGpoiXB/SipOFemM5IszTHCiHNdLwk/img.png|alignCenter|width="100%"|\_##
-
-[##_Image|kage@bdtvd2/btqX32U17GU/zgTfsvxEzE34kb5R0I5y8k/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbP1ouz%2FbtqYgGpoiXB%2FSipOFemM5IszTHCiHNdLwk%2Fimg.png)
 
 <br/>
 
@@ -1030,15 +1061,15 @@ plt.imshow(cv2.cvtColor(dst, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@b2n9Mp/btqX32AF7lj/z88Fsunzmv9g3xLOPVN8MK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb2n9Mp%2FbtqX32AF7lj%2Fz88Fsunzmv9g3xLOPVN8MK%2Fimg.png)
 
-
+  
 \[\[0.0625 0.0625 0.0625 0.0625\]  
 \[0.0625 0.0625 0.0625 0.0625\]  
 \[0.0625 0.0625 0.0625 0.0625\]  
 \[0.0625 0.0625 0.0625 0.0625\]\]
 
-[##_Image|kage@NFoai/btqYfXkANnL/CemAIjyboHy9KMPvx9R6X1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FNFoai%2FbtqYfXkANnL%2FCemAIjyboHy9KMPvx9R6X1%2Fimg.png)
 
 <br/>
 
@@ -1059,7 +1090,7 @@ plt.imshow(cv2.cvtColor(dst, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@DzTMn/btqYgGixBY1/n2wX61wqUTw9ueyzvSmkY0/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDzTMn%2FbtqYgGixBY1%2Fn2wX61wqUTw9ueyzvSmkY0%2Fimg.png)
 
 <br/>
 
@@ -1080,16 +1111,21 @@ plt.imshow(cv2.cvtColor(dst, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-[##_Image|kage@bHIGmp/btqYhzpVtpI/w2zS4aWdUAmndcfx3ZfQvK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbHIGmp%2FbtqYhzpVtpI%2Fw2zS4aWdUAmndcfx3ZfQvK%2Fimg.png)
 
 <br/>
 
 이제까지 OpenCV의 기본적인 이미지처리에 대해 알아보았습니다!  
-다음은 OpenCV에서 간단한 머신러닝 알고리즘인 KNN이 어떻게 적용되는지 살펴보겠습니다.
+
+<br/>
+
+🌱 다음은 OpenCV에서 간단한 머신러닝 알고리즘인 KNN이 어떻게 적용되는지 살펴보겠습니다.
 
 <br/>
 
 # 🧮 KNN Algorithm
+
+<br/>
 
 ## KNN(K-Nearest Neighbor)이란?
 
@@ -1106,7 +1142,7 @@ KNN은 머신러닝 알고리즘으로
 
 <br/>
 
-[##_Image|kage@vUvYh/btqYiCmpaxv/aAtMklEBbdK92F45PTkcm0/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvUvYh%2FbtqYiCmpaxv%2FaAtMklEBbdK92F45PTkcm0%2Fimg.png)
 
 <br/>
 
@@ -1146,11 +1182,13 @@ result : \[\[1.\]\]
 neighbours : \[\[1. 0. 1.\]\]  
 distance: \[\[ 25. 97. 148.\]\]
 
-[##_Image|kage@cgyakI/btqX32Hs9dv/mahTlSY5hgMJZDFViAqQak/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgyakI%2FbtqX32Hs9dv%2FmahTlSY5hgMJZDFViAqQak%2Fimg.png)
 
 <br/>
 
 ## KNN 숫자 인식 예제
+
+<br/>
 
 ### 숫자 이미지 분류하여 저장하기
 
@@ -1199,9 +1237,9 @@ cv2.imwrite('test_8.png', x[40, 0])
 cv2.imwrite('test_9.png', x[45, 0])
 ```
 
-[##_Image|kage@T6LOG/btqYfWy9hf6/jJlI2Kk87JaeGXCKEdTwQ1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FT6LOG%2FbtqYfWy9hf6%2FjJlI2Kk87JaeGXCKEdTwQ1%2Fimg.png)
 
-
+  
 Out\[43\]: True
 
 <br/>
@@ -1249,44 +1287,75 @@ for file_name in glob.glob('./test_*.png'):
   print(result)
 ```
 
-[##_Image|kage@m1rCH/btqX821eI1z/bnr2BQKPYduoYzT8l0CLN1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fm1rCH%2FbtqX821eI1z%2Fbnr2BQKPYduoYzT8l0CLN1%2Fimg.png)
 
-
+  
 \[\[5.\]\]
 
-[##_Image|kage@bHzIs1/btqYhzDvu5Z/DVP9sKIZtMhPVt9a22a9wK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcscDZ6%2FbtqYebi2bYI%2F9eh8ciNuYUdWzypnesMKZk%2Fimg.png)
 
-
+  
 \[\[3.\]\]
 
-[##_Image|kage@cscDZ6/btqYebi2bYI/9eh8ciNuYUdWzypnesMKZk/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FSkrXJ%2FbtqX321KNaZ%2Fbbgv0zQQU95wCqAmkvdEKK%2Fimg.png)
 
-
+  
 \[\[6.\]\]
 
-[##_Image|kage@SkrXJ/btqX321KNaZ/bbgv0zQQU95wCqAmkvdEKK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbOGjEf%2FbtqYbH3BQrR%2FEY8wSwu2xQfFmK4bh86YT0%2Fimg.png)
 
-
+  
 \[\[8.\]\]
 
-[##_Image|kage@cPIxzu/btqX1oD28T6/j2lv1SwYcL970Tv285UMVK/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcPIxzu%2FbtqX1oD28T6%2Fj2lv1SwYcL970Tv285UMVK%2Fimg.png)
 
-
+  
 \[\[4.\]\]
 
-[##_Image|kage@bOGjEf/btqYbH3BQrR/EY8wSwu2xQfFmK4bh86YT0/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbHzIs1%2FbtqYhzDvu5Z%2FDVP9sKIZtMhPVt9a22a9wK%2Fimg.png)
 
-
+  
 \[\[2.\]\]
 
-[##_Image|kage@rRxjF/btqYeaYOucu/BZk3KVQKEJKhkfrIdUFCT1/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FKiqfR%2FbtqX32HtgMJ%2FwTCyDciY39PAGmZ0kwt27k%2Fimg.png)
 
-
+  
 \[\[7.\]\]
 
-[##_Image|kage@KmcKX/btqYiBHO0Gf/HP5g6aTum62WLLAFvF10Ok/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FKmcKX%2FbtqYiBHO0Gf%2FHP5g6aTum62WLLAFvF10Ok%2Fimg.png)
 
+  
+\[\[0.\]\]
 
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FrRxjF%2FbtqYeaYOucu%2FBZk3KVQKEJKhkfrIdUFCT1%2Fimg.png)
+
+  
+\[\[1.\]\]
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlMz0r%2FbtqYgFRsase%2FLuSQDNYKhW9kdbTiKBlCc0%2Fimg.png)
+  
+\[\[9.\]\]
+
+<br/>
+
+# 🤝 마치며
+
+이상 Python을 이용한 데이터 분석과 이미지 처리에 대해 알아보았습니다. 
+이 포스트 내용 이외에 더 궁금하신 분은 아래의 글을 참고해주시길 바랍니다.
+
+<br/>
+
+### Reference
+
+[https://www.youtube.com/watch?v=F2FRpmh9sQo&list=PLRx0vPvlEmdBx9X5xSgcEk4CEbzEiws8C&index=7](https://www.youtube.com/watch?v=F2FRpmh9sQo&list=PLRx0vPvlEmdBx9X5xSgcEk4CEbzEiws8C&index=7)
+
+<br/>
+
+### 글쓴이
+
+DSC Yonsei 오세빈
+
+E-mail:[osb3372@yonsei.ac.kr](http://osb3372@yonsei.ac.kr/)
 \[\[0.\]\]
 
 [##_Image|kage@KiqfR/btqX32HtgMJ/wTCyDciY39PAGmZ0kwt27k/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
