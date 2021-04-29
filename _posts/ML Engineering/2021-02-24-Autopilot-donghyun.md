@@ -74,7 +74,10 @@ data
 
 위 코드를 실행하여 데이터셋을 살펴봅니다.
 
-[##_Image|kage@kxQ9B/btqYnm5BE4H/vpFPMddEu1Yt4DFqWmoIC0/img.png|alignCenter|data-filename="image-20210223204828777.png" data-origin-width="1772" data-origin-height="528" data-ke-mobilestyle="widthContent"|20개의 Feature를 확인||_##]
+
+![image](/assets/post/autopilot-donghyun/3.png)
+
+<center>20개의 Feature를 확인</center>
 
 실행시 위 이미지와 같이 20개의 요소들과 예측 결과인 y값이 나오면 정상적으로 진행되고 있는것입니다.
 
@@ -106,7 +109,9 @@ test_data_s3_path = session.upload_data(path=test_file, key_prefix=prefix + "/te
 print('Test data uploaded to: ' + test_data_s3_path)
 ```
 
-[##_Image|kage@csUVRp/btqYmHB7L2G/5VoXN1mAdfuPC3XGyunTqK/img.png|alignCenter|data-filename="image-20210223205855979.png" data-origin-width="1005" data-origin-height="258" data-ke-mobilestyle="widthContent"|정상적으로 업로드시 위와 같은 결과가 출력(s3 경로는 사람마다 다름)||_##]
+![image](/assets/post/autopilot-donghyun/4.png)
+
+<center>정상적으로 업로드시 위와 같은 결과가 출력(s3 경로는 사람마다 다름)</center>
 
 # SageMaker Autopilot 설정하기
 
@@ -190,7 +195,9 @@ Autopilot에는 다음과 같은 3가지 상태가 존재하며 이를 통해 �
 
 각 단계에 대한 자세한 설명은 다음 [링크](https://aws.amazon.com/ko/getting-started/hands-on/create-machine-learning-model-automatically-sagemaker-autopilot/)에 들어가 5단계 영역에서 확인할 수 있습니다.
 
-[##_Image|kage@PMZbO/btqYnoh4ato/wxMKLegoJ2zuQJkmZPC9OK/img.png|alignCenter|data-filename="image-20210223213718244.png" data-origin-width="317" data-origin-height="879" data-ke-mobilestyle="widthContent"|Autopilot이 정상적으로 종료시 Completed가 출력||_##]
+![image](/assets/post/autopilot-donghyun/5.png)
+
+<center>Autopilot이 정상적으로 종료시 Completed가 출력</center>
 
 정상적으로 훈련이 끝나면 위와 같은 결과가 나오게 됩니다.
 
@@ -208,7 +215,9 @@ print("FinalAutoMLJobObjectiveMetricValue: " + str(best_candidate['FinalAutoMLJo
 
 위 코드를 실행하여 다음과 같이 Autopilot으로 생성된 ML 파이프라인을 확인할 수 있습니다.
 
-[##_Image|kage@u8dP0/btqYgGqQm6I/gn0IP6Vr7Z9NloEXp5LW70/img.png|alignCenter|data-origin-width="1777" data-origin-height="489" data-filename="image-20210223214710701.png" data-ke-mobilestyle="widthContent"|||_##]
+
+![image](/assets/post/autopilot-donghyun/6.png)
+
 
 ## 최상의 후보를 통해 배치 인퍼런스 수행
 
@@ -292,7 +301,10 @@ data
 
 S3에 저장된 결과파일(csv)를 가져와 pandas 프레임을 사용해 데이터를 확인할 수 있습니다. 이전에 데이터셋 확인 과정에서 한것과 마찬가지 입니다.
 
-[##_Image|kage@rdQGW/btqYgFyy60O/goj8VkGSFrvYKX1Kt2ebT0/img.png|alignCenter|data-filename="image-20210223220343713.png" data-origin-width="300" data-origin-height="438" data-ke-mobilestyle="widthContent"|고객이 적금을 들지 말지를 표현한 결과||_##]
+
+![image](/assets/post/autopilot-donghyun/7.png)
+
+<center>고객이 적금을 들지 말지를 표현한 결과</center>
 
 ## Autopilot으로 생성된 나머지 후보군 살펴보기
 
@@ -306,7 +318,9 @@ for candidate in candidates:
 
 Autopilot은 이전에 명시해둔 MaxCandidates 만큼 ML파이프라인을 생성합니다. 따라서, 최상의 결과를 가져오는 파이프라인 이외에도 다른 파이프라인을 살펴보고 싶으면 위 코드를 실행하여 확인할 수 있습니다.
 
-[##_Image|kage@x2mUi/btqYn53EPEJ/k6Px9VEPSp0lez04OugCLK/img.png|alignCenter|data-filename="image-20210223221024395.png" data-origin-width="615" data-origin-height="69" data-ke-mobilestyle="widthContent"|생성된 모델 후보군들||_##]
+![image](/assets/post/autopilot-donghyun/8.png)
+
+<center>생성된 모델 후보군들</center>
 
 필자의 경우 후보군의 수를 3으로 줄였으므로 위와 같이 3개가지 후보들이 나오는 것을 확인할 수 있었습니다.
 
@@ -314,7 +328,9 @@ Autopilot은 이전에 명시해둔 MaxCandidates 만큼 ML파이프라인을 �
 
 Autopilot이 후보군을 생성하기 선택하기 위한 단계들을 확인할 수 있는 노트북을 다운받을 수 있습니다. 다음 코드들을 실행하면 노트북들을 다운받을 수 있는 S3 스토리지의 위치를 알려줍니다.
 
-[##_Image|kage@b4zNdr/btqYpWkQSs1/wqOUBy6raCtqZ1dPMDiokK/img.png|alignCenter|data-filename="image-20210223222929413.png" data-origin-width="1818" data-origin-height="221" data-ke-mobilestyle="widthContent"|S3 스토리지에 접근하면 확인가능||_##]
+![image](/assets/post/autopilot-donghyun/9.png)
+
+<center>S3 스토리지에 접근하면 확인가능</center>
 
 # 마무리
 
@@ -328,6 +344,8 @@ Autopilot을 진행하면서 생성된 많은 것들이 존재하는데 AWS에 �
 #bucket.objects.filter(Prefix=job_outputs_prefix).delete()
 ```
 
-[##_Image|kage@brqi1I/btqYmHIZqa4/c6zHbkZ4o91l8L70Q6YGq1/img.png|alignCenter|data-origin-width="1772" data-origin-height="556" data-filename="image-20210223223227217.png" data-ke-mobilestyle="widthContent"|Autopilot으로 생성된 모델은 손수 삭제||_##]
+![image](/assets/post/autopilot-donghyun/10.png)
+
+<center>Autopilot으로 생성된 모델은 손수 삭제</center>
 
 참조 링크:[sagemaker-examples.readthedocs.io/en/latest/autopilot/index.html](https://sagemaker-examples.readthedocs.io/en/latest/autopilot/index.html)
