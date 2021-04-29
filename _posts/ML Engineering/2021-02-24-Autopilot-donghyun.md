@@ -25,9 +25,9 @@ Autopilot을 체험하기 위해서는 다음과 같은 항목을 준비해야 �
 -   
 
 권한 및 암호화 섹션 확인
-
+<center>
 ![image](/assets/post/autopilot-donghyun/2.png)
-정책 연결을 클릭해 AmazonS3FullAccess 추가
+정책 연결을 클릭해 AmazonS3FullAccess 추가</center>
 
 ```
 import sagemaker
