@@ -21,9 +21,13 @@ Autopilot을 체험하기 위해서는 다음과 같은 항목을 준비해야 �
 
 -   모델 훈련과 생성에 사용될 데이터를 저장할 공간인 Amazon S3가 필요합니다.S3는 SageMaker와 같은 지역(region)에 위치해야 합니다.
 -   Autopilot을 사용하기 위해 위에서 생성한 S3에 접근할 권한을 부여받아야 합니다. 생성한 노트북 인스턴스에 들어가보면 권한 및 암호화 부분이 있습니다, 거기서 "IAM역할 ARN"을 선택 후 "정책연결" 버튼을 클릭해 "AmazonS3FullAccess" 정책을 추가해줍니다.
--   [##_Image|kage@cLdWUJ/btqYnooQ5tH/atcmrSxO9FZJ1ydlMp6i80/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|&nbsp;권한 및 암호화 섹션 확인||_##]
+-   [##_Image|kage@cLdWUJ/btqYnooQ5tH/atcmrSxO9FZJ1ydlMp6i80/img.png|alignCenter|width="100%" data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|&nbsp;
+-   
 
-[##_Image|kage@cwtrnf/btqYkaq4Chp/7cgp2Qzk79EONtW5yrDgu1/img.png|alignCenter|data-filename="image-20210223202747085.png" data-origin-width="579" data-origin-height="341" data-ke-mobilestyle="widthContent"|정책 연결을 클릭해 AmazonS3FullAccess 추가||_##]
+권한 및 암호화 섹션 확인
+
+[!image](dsc-yonsei.github.io/assets/post/autopilot-donghyun/2.png)
+정책 연결을 클릭해 AmazonS3FullAccess 추가
 
 ```
 import sagemaker
