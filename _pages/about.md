@@ -1,6 +1,6 @@
 ---
 permalink : /about/
-layout : posts 
+layout : pages 
 author_profile : true
 ---
 
