@@ -2,6 +2,7 @@
 permalink : /study/
 layout : single 
 author_profile : true
+sidebar_main: true
 ---
 
 #### Study 소개
