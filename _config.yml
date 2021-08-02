@@ -15,17 +15,17 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "　　　　"
+locale                   : "kr"
+title                    : "GDSC Yonsei Tech Team Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "DSC Yonsei"
-description              : # "Google Developers DSC Yonsei Tech Blog."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "GDSC Yonsei Tech Team Blog"
+description              : "Google Developer Student Clubs Yonsei University Tech Blog."
+url                      : "https://gdsc-yonsei.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/DSCYonseiLogo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/GDSC-Logo.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/GDSC-Logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -94,27 +94,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "DSC Yonsei Univ."
-  avatar           : "/assets/images/DSC.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Google Developers DSC Yonsei Tech Blog."
+  name             : "GDSC Yonsei Univ."
+  avatar           : "/assets/images/Google-DSC-Centered-yonsei.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Google Developer Student Clubs Yonsei Tech Blog."
   location         : "wonju, Republic of Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "dscyonsei@gmail.com"
+      url: "gdsc-yonsei@googlegroups.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://sites.google.com/yonsei.ac.kr/gdsc-yonsei/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/DSCYonsei.Univ/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DSC-Yonsei"
+      url: "https://github.com/GDSC-Yonsei"
+    - label: "Event Platform"
+      icon: "fab fa-fw fa-google"
+      url: "https://gdsc.community.dev/yonsei-university/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -125,12 +128,18 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sites.google.com/yonsei.ac.kr/gdsc-yonsei/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/DSCYonsei.Univ"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DSC-Yonsei"
+      url: "https://github.com/GDSC-Yonsei"
+    - label: "Event Platform"
+      icon: "fab fa-fw fa-google"
+      url: "https://gdsc.community.dev/yonsei-university/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -210,7 +219,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Aisa/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -280,3 +289,4 @@ defaults:
       comments: true
       share: true
       related: true
+      
