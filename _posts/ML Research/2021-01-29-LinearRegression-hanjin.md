@@ -1,11 +1,11 @@
 ---
 published : true
-layout : posts
 title: "[ML Research]Linear Regression"
 date: 2021-01-29
 excerpt: "머신러닝의 기초인 선형회귀에 대해서 다룹니다.."
-comments: true
 use_math: true
+categories:
+  - MLResearch
 author : HanJin Lee
 ---
 
