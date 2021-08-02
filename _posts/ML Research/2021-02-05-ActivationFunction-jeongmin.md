@@ -1,11 +1,11 @@
 ---
 published : true
-layout : posts
 title: "[ML Research]Activation Function"
 date: 2021-02-05
 excerpt: "딥러닝에서 빼놓을 수 없는 활성화 함수에 대해서 다룹니다."
-comments: true
 use_math: true
+categories:
+  - MLResearch
 author : JeongMin Do
 ---
 앞서 DSC Yonsei 임성수 님께서 작성해 주신 Logistic Regression post에서 input과 가중치의 선형결합을 sigmoid 함수에 넣어서 output으로 이진분류를 하는 것을 배웠습니다.
