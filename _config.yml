@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "GDSC Yonsei Univ."
-  avatar           : "/assets/images/Google-DSC-Centered-yonsei.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/GDSC-Logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Google Developer Student Clubs Yonsei Tech Blog."
   location         : "wonju, Republic of Korea"
   email            :
