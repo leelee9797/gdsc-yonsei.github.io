@@ -1,11 +1,11 @@
 ---
 published : true
-layout : posts
 title: "[ML Research]Artificial Neural Network"
 date: 2021-01-28
 excerpt: "인공신경망의 기초적인 부분에 대해서 다루는 포스트입니다."
-comments: true
 use_math: true
+categories:
+  - MLResearch
 author : JeongMin Do
 ---
 
