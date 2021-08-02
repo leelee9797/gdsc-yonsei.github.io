@@ -1,11 +1,11 @@
 ---
 published : true
-layout : posts
 title: "[ML Research]Python을 이용한 데이터 분석과 이미지 처리(1)"
 date: 2021-03-24
 excerpt: "Python을 이용한 데이터 분석과 이미지 처리에 대한 포스트입니다."
-comments: true
 use_math: true
+categories:
+  - MLResearch
 author : SeBin Oh
 ---
 
