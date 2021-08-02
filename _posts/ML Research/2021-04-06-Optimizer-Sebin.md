@@ -1,11 +1,11 @@
 ---
 published : true
-layout : posts
 title: "[ML Research]최적화 알고리즘(Optimizer)"
 date: 2021-04-06
 excerpt: "최적화 알고리즘 Optimizer에 대한 포스트입니다."
-comments: true
 use_math: true
+categories:
+  - MLResearch
 author : SeBin Oh
 ---
 
