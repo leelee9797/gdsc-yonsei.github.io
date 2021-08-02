@@ -98,11 +98,11 @@ author:
   avatar           : "/assets/images/GDSC-Logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Google Developer Student Clubs Yonsei Tech Blog."
   location         : "wonju, Republic of Korea"
-  email            :
+  email            : "gdsc-yonsei@googlegroups.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "gdsc-yonsei@googlegroups.com"
+      # url: "gdsc-yonsei@googlegroups.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://sites.google.com/yonsei.ac.kr/gdsc-yonsei/"
