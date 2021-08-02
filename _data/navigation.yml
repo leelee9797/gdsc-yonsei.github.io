@@ -6,6 +6,10 @@ main:
      url: /about/
    - title: "Study"
      url: /study/
+   - title: "Categories"
+     url: /categories/
+   - title: "Tags"
+     url: /tags/
   # - title: "ML Research Study"
   #   url: /ML Research Study/
   # - title: "Flutter Study"
