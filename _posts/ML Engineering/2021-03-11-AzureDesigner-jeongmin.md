@@ -1,11 +1,11 @@
 ---
 published : true
-layout : posts
 title: "[ML Engineering]Azure Designer 기초"
 date: 2021-03-11
 excerpt: "Azure에서 codeless AI 솔루션인 Designer를 사용해봅시다."
-comments: true
 use_math: true
+categories:
+  - MLEngineering
 author : JeongMin Do
 ---
 
