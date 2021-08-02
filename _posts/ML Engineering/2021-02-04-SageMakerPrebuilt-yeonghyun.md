@@ -1,12 +1,12 @@
 ---
 published : true
-layout : posts
 title: "[ML Engineering]AWS SageMaker에서 pre-built된 모델 이용하기"
 date: 2021-02-04
 excerpt: "AWS SageMaker에서 pre-built된 모델을 이용하여 머신러닝 작업을 수행하는 것을 다룹니다.."
-comments: true
 use_math: true
-author : YeongHyun Park
+categories:
+  - MLEngineering
+author : YeongHyun Park 
 ---
 
 ## AWS SageMaker에서 노트북 인스턴스 생성하는 방법
