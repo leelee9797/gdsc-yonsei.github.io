@@ -1,11 +1,11 @@
 ---
 published : true
-layout : posts
 title: "[ML Engineering]SageMaker Autopilot 시작하기(은행 마케팅 데이터 활용)"
 date: 2021-02-24
 excerpt: "SageMaker에서 Autopilot을 하는 토이프로젝트를 다룹니다."
-comments: true
 use_math: true
+categories:
+  - MLEngineering
 author : DongHyun Kim
 ---
 
