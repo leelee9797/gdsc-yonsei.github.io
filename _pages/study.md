@@ -1,6 +1,6 @@
 ---
 permalink : /study/
-layout : pages 
+layout : single 
 author_profile : true
 ---
 
