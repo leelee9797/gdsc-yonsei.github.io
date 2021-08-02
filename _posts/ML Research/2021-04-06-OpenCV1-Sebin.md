@@ -1,10 +1,10 @@
 ---
 published : true
-layout : posts
 title: "[ML Research]파이썬과 OpenCV를 이용한 컴퓨터 비전 학습(1)"
 date: 2021-04-06
 excerpt: "OpenCV를 이용한 컴퓨터 비전의 간단한 기능에 대한 포스트입니다."
-comments: true
+categories:
+  - MLResearch
 use_math: true
 author : SeBin Oh
 ---
