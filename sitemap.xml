@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>https://gdsc-yonsei.github.io/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/page2/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/feed.xml</loc>
+   <lastmod>2021-08-03T11:14:59+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/about/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/study/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/categories/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/tags/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlresearch/Optimizer-Sebin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlresearch/OpenCV2-Sebin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlresearch/OpenCV1-Sebin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlresearch/Python1-Sebin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlresearch/CNN-Sebin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/page3/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlengineering/AzureDesigner-jeongmin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlengineering/Azure(1)-yeonghyun/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlresearch/RL_lec(1)-jeongmin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlengineering/Autopilot-donghyun/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlresearch/ActivationFunction-jeongmin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlresearch/LinearRegression-hanjin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlresearch/ANN-jeongmin/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/mlengineering/SageMakerPrebuilt-yeonghyun/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/categories/MLEngineering/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://gdsc-yonsei.github.io/categories/MLResearch/</loc>
+   <lastmod>2021-08-03T11:20:57+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+</urlset>
