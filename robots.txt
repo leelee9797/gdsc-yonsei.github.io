@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gdsc-yonsei.github.io/sitemap.xml
