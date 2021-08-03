@@ -17,7 +17,7 @@ sidebar_main: true
 |:-------:|:--------:|:--------:|:--------:|:--------:| 
 | 1 | [Linear Regression](https://gdsc-yonsei.github.io/mlresearch/LinearRegression-hanjin/) | 모두의 강화학습(1) | OpenCV를 이용한 컴퓨터 비전 학습(1) | Text Tokenizer | 
 | 2 | Logistic Regression | 모두의 강화학습(2) | OpenCV를 이용한 컴퓨터 비전 학습(2) | RNN |
-| 3 | Softmax | [강화학습 심화강의(1)](https://gdsc-yonsei.github.io/mlresearch/RL-jeongmin/) | OpenCV를 이용한 컴퓨터 비전 학습(3) | LSTM | 
+| 3 | Softmax | [강화학습 심화강의(1)](https://gdsc-yonsei.github.io/mlresearch/RL_lec(1)-jeongmin/) | OpenCV를 이용한 컴퓨터 비전 학습(3) | LSTM | 
 | 4 | [Artificial Neural Network](https://gdsc-yonsei.github.io/mlresearch/ANN-jeongmin/) | 강화학습 심화강의(2) | OpenCV를 이용한 컴퓨터 비전 학습(4) |  |
 | 5 | Loss Function |  | OpenCV를 이용한 컴퓨터 비전 학습(5) |  | 
 | 6 | [Activation Function](https://gdsc-yonsei.github.io/mlresearch/ActivationFunction-jeongmin/) |  | OpenCV를 이용한 컴퓨터 비전 학습(6) |  |
