@@ -15,12 +15,12 @@ sidebar_main: true
 
 |#| ML Basic | RL | Vision | NLP |
 |:-------:|:--------:|:--------:|:--------:|:--------:| 
-| 1 | [Linear Regression](https://gdsc-yonsei.github.io/LinearRegression-hanjin/) | 모두의 강화학습(1) | OpenCV를 이용한 컴퓨터 비전 학습(1) | Text Tokenizer | 
+| 1 | [Linear Regression](https://gdsc-yonsei.github.io/mlresearch/LinearRegression-hanjin/) | 모두의 강화학습(1) | OpenCV를 이용한 컴퓨터 비전 학습(1) | Text Tokenizer | 
 | 2 | Logistic Regression | 모두의 강화학습(2) | OpenCV를 이용한 컴퓨터 비전 학습(2) | RNN |
-| 3 | Softmax | [강화학습 심화강의(1)](https://gdsc-yonsei.github.io/RL-jeongmin/) | OpenCV를 이용한 컴퓨터 비전 학습(3) | LSTM | 
-| 4 | [Artificial Neural Network](https://gdsc-yonsei.github.io/ANN-jeongmin/) | 강화학습 심화강의(2) | OpenCV를 이용한 컴퓨터 비전 학습(4) |  |
+| 3 | Softmax | [강화학습 심화강의(1)](https://gdsc-yonsei.github.io/mlresearch/RL-jeongmin/) | OpenCV를 이용한 컴퓨터 비전 학습(3) | LSTM | 
+| 4 | [Artificial Neural Network](https://gdsc-yonsei.github.io/mlresearch/ANN-jeongmin/) | 강화학습 심화강의(2) | OpenCV를 이용한 컴퓨터 비전 학습(4) |  |
 | 5 | Loss Function |  | OpenCV를 이용한 컴퓨터 비전 학습(5) |  | 
-| 6 | [Activation Function](https://gdsc-yonsei.github.io/ActivationFunction-jeongmin/) |  | OpenCV를 이용한 컴퓨터 비전 학습(6) |  |
+| 6 | [Activation Function](https://gdsc-yonsei.github.io/mlresearch/ActivationFunction-jeongmin/) |  | OpenCV를 이용한 컴퓨터 비전 학습(6) |  |
 | 7 | Optimizer |  |  |  |
 | 8 | Overfitting, Dropout, Early Stopping |  |  |  |
 | 9 | Metric |  |  |  |
@@ -34,11 +34,11 @@ sidebar_main: true
 
 |#| ML Engineering Study |
 |:-------:|:--------:|
-| 1 | [AWS SageMaker에서 pre-built된 모델 이용하기](https://gdsc-yonsei.github.io/SageMakerPrebuilt-yeonghyun/) |
+| 1 | [AWS SageMaker에서 pre-built된 모델 이용하기](https://gdsc-yonsei.github.io/mlengineering/SageMakerPrebuilt-yeonghyun/) |
 | 2 | AWS SageMaker에서 커스텀 모델 사용하기 |
-| 3 | [AWS SageMaker Autopilot 시작하기(은행 마케팅 데이터 활용)](https://gdsc-yonsei.github.io/Autopilot-donghyun/) |
-| 4 | [Azure에서 ML training, deploy 기초](https://gdsc-yonsei.github.io/Azure(1)-yeonghyun/) |
-| 5 | [Azure에서 ML designer 기초](https://gdsc-yonsei.github.io/AzureDesigner-jeongmin/) |
+| 3 | [AWS SageMaker Autopilot 시작하기(은행 마케팅 데이터 활용)](https://gdsc-yonsei.github.io/mlengineering/Autopilot-donghyun/) |
+| 4 | [Azure에서 ML training, deploy 기초](https://gdsc-yonsei.github.io/mlengineering/Azure(1)-yeonghyun/) |
+| 5 | [Azure에서 ML designer 기초](https://gdsc-yonsei.github.io/mlengineering/AzureDesigner-jeongmin/) |
 | 6 | Docker(1) |
 | 7 | Docker(2) |
 | 8 | Docker(3) |
